@@ -30,6 +30,10 @@ body {
     cursor: pointer;
 
 }
+#navbar ul li a {
+    color: #fff;
+    text-decoration: none;
+}
  ul li:hover {
     background-color: #45567d;
 
@@ -104,3 +108,11 @@ body {
     text-align: center;
     padding: 20px;
 }
+
+
+/* Media query for smaller screens */
+@media screen and (max-width: 768px) {
+    .image-item {
+      width: calc(50% - 10px);
+    }
+  }
